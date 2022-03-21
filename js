@@ -89,18 +89,6 @@ console.log(randomNumber)
 
 
 
-// let wins;
-
-// if (Numbersmatch) {
-
-//      Numbersmatch = wins;
-
-// }
-// alert ( "Wow, Let's go!!!")
-
-
-
-//          Numbersmatch();
 
 
 
