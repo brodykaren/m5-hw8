@@ -1,4 +1,3 @@
-
 // Create variables to count wins and losses
 
 var wins = 0;
@@ -88,6 +87,31 @@ console.log(randomNumber)
 
 
 
+
+// let wins;
+
+// if (Numbersmatch) {
+
+//      Numbersmatch = wins;
+
+// }
+// alert ( "Wow, Let's go!!!")
+
+
+
+//          Numbersmatch();
+
+
+// function Numbersmatch() {
+//      const num = Math.ceil(Math.randomn() * 10);
+//      console.log(num);
+//      const gnum = prompt('match the game');
+//      if (gnum == num)
+//           console.log('Matched');
+
+//      else
+//           console.log('Not matched' + gnum);
+// }
 
 
 
