@@ -106,16 +106,7 @@ if(randomNumber === clicked){
 winElm.innerText = wins;
 losesElm.innerText = losses
 
-         function Numbersmatch() {
-              const num = Math.ceil(Math.randomn() * 10);
-              console.log(num);
-              const gnum = prompt('match the game');
-              if (gnum == num)
-                   console.log('Matched');
-
-              else
-                   console.log('Not matched' + gnum);
-         }
+         
 })
 })
 
