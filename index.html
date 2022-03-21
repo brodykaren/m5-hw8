@@ -33,37 +33,40 @@
   </header>
   <main>
     
-   
+    
     <div class="jumbotron">
     <h1 class="text-center">box challenge</h1>
 </div>
 
 <p class="text-center">Test your luck. choose a box. win a prize.</p>
  
+<p id="message"></p>
 
-<div class="boxes">
+<div class="boxes row">
+  <div class="animation">
     <div class="col-sm-6 col-md-4 col-lg-3">
         <figure>
             <div class="shadow-sm p-3 mb-5 bg- rounded">
               
                 <div id="box-1" class="box">1</div>
-               
-                
+              </div>
+            </div>      
         </figure>
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="animation">
         <figure>
             <div class="shadow-sm p-3 mb-5 bg- rounded">
               <div id="box-2" class="box">2</div>
-              
+              </div>
             </div>
         </figure>
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
+      <div class="animation">
           <div class="shadow-sm p-3 mb-5 bg- rounded">
             <div id="box-3" class="box">3</div>  
-         
+          </div>
           </div>
       </figure>
   </div>
@@ -72,7 +75,7 @@
   <div class="score">
     <div id="wins"></div>
     <div id="losses"></div>
-    <span id="user-score">0</span>:<span id="computer-score">0</span>
+    
   </div>
 
 
@@ -81,3 +84,5 @@
   <script src="index.js"></script>
 </body>
 </html>
+   
+   
